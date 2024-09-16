@@ -37,6 +37,7 @@ This lets me have a [Nix](https://nixos.org/) shell flake, loaded through [diren
 ### Requirements
 That means, to properly use this repo, the following are required:
 - Nix, with flakes/experimental-features enabled\
+
 And the following are recommended:
 - Direnv
 
