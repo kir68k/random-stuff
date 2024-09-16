@@ -24,11 +24,11 @@ int main(int argc, char *argv[]) {
     // U+003A ":" is not needed when simply printing
     string protocol_trimmed = url->get_protocol();
     algorithm::erase_tail(protocol_trimmed, 1);
-    
-    //string port = url->get_port();
-    //if (port.empty()) {
-    //    port = "No port specified";
-    //}
+
+    // string port = url->get_port();
+    // if (port.empty()) {
+    //     port = "No port specified";
+    // }
 
     cout << "Protocol: " << protocol_trimmed << endl;
     cout << "Host: " << url->get_host() << endl;

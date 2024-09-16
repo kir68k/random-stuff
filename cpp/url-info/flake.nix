@@ -34,6 +34,8 @@
               ];
 
               nativeBuildInputs = with pkgs; [
+                ada
+                boost
                 cmake
                 meson
                 ninja
